@@ -1,4 +1,4 @@
-package in.ars.main;
+package in.pws.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
