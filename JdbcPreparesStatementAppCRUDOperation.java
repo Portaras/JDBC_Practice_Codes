@@ -152,14 +152,6 @@ public class JdbcPreparesStatementAppCRUDOperation {
 		} finally {
 			try {
 				JdbcUtilCommonCode.cleanupResources(connection, pstmt, resultSet);
-				if (resultSet != null)
-					resultSet.close();
-
-				if (pstmt != null)
-					pstmt.close();
-
-				if (connection != null)
-					connection.close();
 
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
